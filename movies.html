@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	    <title>主页</title>
+	    <!-- 引入layui css文件 -->
+	    <link rel="stylesheet" href="css/layui.css">
+	    <!-- 自定义 css -->
+	    <link rel="stylesheet" href="css/index.css">
+	</head>
+	<body>
+	<!-- Header -->
+	<div class="header">
+        <!-- 个性化标题 -->
+        <div class="mytitle">
+            <label>坚持柯学发展</label>
+        </div>
+        <!-- 导航栏 -->
+        <div class="mymenu-content">
+            <ul class="mymenu">
+                <li><a href="index.html">文章</a></li>
+                <li><a href="photos.html">相册</a></li>
+                <li><a href="about.html">简介</a></li>
+                <li><a href="aihao.html">爱好</a></li>
+                <li><a href="">电影</a></li>
+                <li><a href="books.html">书籍</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 个性签名 -->
+    <div class="my-sign">
+        <!--  包含标志和签名 -->
+        <div class="my-signImg">
+            <img id="my-signImg" src="img/001.gif">
+            <div class="my-signWord">
+                <span class="my-signTitle" id="my-signTitle">匆匆时光</span>
+                <span class="my-signBody" id="my-signBody">I' am waiting for you here.</span>
+            </div>
+        </div>
+    </div>
+    <!-- Content -->
+    <div class="main-content" style="text-align: center;background-color: #FFFFFF;width: 85%;margin: auto;padding-top: 20px;">
+    	<!-- 相册面板 -->
+            <div class="blog-item" style="font-weight: 300;">
+				<fieldset class="layui-elem-field" style="text-align: left;">
+				  <legend>有些电影就是我经历的另一种人生</legend>
+					<!-- 龙猫电影 -->
+					<div style="margin: 30px 0px;">
+						<fieldset class="layui-elem-field" style="text-align: left;margin: 20px 70px;">
+						  <legend>龙猫</legend>
+						  <div class="layui-field-box" style="padding: 20px 100px;">
+						  	<!-- 电影配图 -->
+			    			<div style="border: 1px solid #ede9e9;padding: 30px 30px;text-align: center;">
+			    				<img style="width: 92%;" src="img/10.jpg" />
+			    			</div>
+			    			<!-- 电影感悟 -->
+			    			<div class="about-myself">
+								<h2 style="font-weight: 300;margin: 20px 0px;">电影感触</h2>
+								<p style="margin: 20px;line-height: 30px;text-indent: 20px;">宫崎骏的动漫总是略带一些成长和感触的味道，比如这部龙猫，整体的感觉是给人欢乐和愉快的。草壁皋月是一个虽然年龄不大但却懂事并让人心疼的姐姐，母亲住院期间，操持家中事务并照顾妹妹草壁米，坚强并且乐观积极向上。
+									而妹妹草壁米也是个性格活泼，善于观察周遭有趣事物的小女生，但常因冒失的举动让姐姐担心。彼此成长过程中总是难免遇到挫折和矛盾，但却都怀着一颗善待世界的心，所以也被世界温柔回待。</p>
+							</div>
+						</fieldset>
+					</div>
+					
+					<!-- 龙猫电影 -->
+					<div style="margin: 30px 0px;">
+						<fieldset class="layui-elem-field" style="text-align: left;margin: 20px 70px;">
+						  <legend>萤火之森</legend>
+						  <div class="layui-field-box" style="padding: 20px 100px;">
+						  	<!-- 电影配图 -->
+			    			<div style="border: 1px solid #ede9e9;padding: 30px 30px;text-align: center;">
+			    				<img style="width: 92%;" src="img/9.jpg" />
+			    			</div>
+			    			<!-- 电影感悟 -->
+			    			<div class="about-myself">
+								<h2 style="font-weight: 300;margin: 20px 0px;">电影感触</h2>
+								<p style="margin: 20px;line-height: 30px;">我有多么渴望拥抱你，就有多么害怕失去你。</p>
+							</div>
+						</fieldset>
+					</div>
+				</fieldset>
+    		</div>
+    </div>
+    <script src="js/layui.js"></script>
+    <!-- 引入jquery js -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- 自定义 js -->
+    <script src="js/index.js"></script>
+    <script>
+        $(function () {
+            //init
+            component.init();
+        });
+    </script>
+	</body>
+</html>

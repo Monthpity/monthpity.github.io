@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>主页</title>
+    <!-- 引入layui css文件 -->
+    <link rel="stylesheet" href="css/layui.css">
+    <!-- 自定义 css -->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<!-- Header -->
+<div class="header">
+    <!-- 个性化标题 -->
+    <div class="mytitle">
+        <label>坚持柯学发展</label>
+    </div>
+    <!-- 导航栏 -->
+    <div class="mymenu-content">
+        <ul class="mymenu">
+            <li><a href="index.html">文章</a></li>
+            <li><a href="photos.html">相册</a></li>
+            <li><a href="about.html">简介</a></li>
+            <li><a href="aihao.html">爱好</a></li>
+            <li><a href="movies.html">电影</a></li>
+            <li><a href="">书籍</a></li>
+        </ul>
+    </div>
+</div>
+<!-- 个性签名 -->
+<div class="my-sign">
+    <!--  包含标志和签名 -->
+    <div class="my-signImg">
+        <img id="my-signImg" src="img/001.gif">
+        <div class="my-signWord">
+            <span class="my-signTitle" id="my-signTitle">匆匆时光</span>
+            <span class="my-signBody" id="my-signBody">I' am waiting for you here.</span>
+        </div>
+    </div>
+</div>
+<!-- Content -->
+<div class="main-content">
+    <!-- 个人以及所有文章、留言、照片汇总 包含大分类以及小标签 左面版 -->
+    <div class="my-totalContent">
+        <!-- 1.个人以及汇总部分 -->
+        <div class="blog-inTotal">
+            <!-- 头像 -->
+            <img src="img/002.PNG">
+            <!-- 说明 -->
+            <span>——好好学习，天天向上吧</span>
+            <!-- 各方面汇总(各项目以及数量) -->
+            <fieldset class="layui-elem-field">
+                <legend>文章标签</legend>
+                <!-- 用于存放tags -->
+                <div class="layui-field-box" id="tagContent">
+                    <span class="layui-badge-rim"
+                          style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px;font-weight: 400;">论语</span>
+                    <span class="layui-badge-rim"
+                          style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">道德经</span>
+                    <span class="layui-badge-rim"
+                          style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">余华作品</span>
+                    <span class="layui-badge-rim"
+                          style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">沈从文</span>
+                    <span class="layui-badge-rim"
+                          style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">冰心选集</span>
+                    <span class="layui-badge-rim"
+                          style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">小说散文</span>
+                    <span class="layui-badge-rim"
+                          style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">随笔</span>
+                    <span class="layui-badge-rim"
+                          style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">外国文学</span>
+                    <span class="layui-badge-rim"
+                          style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">人生感悟</span>
+                    <span class="layui-badge-rim"
+                          style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">遇见你</span>
+                    <span class="layui-badge-rim"
+                          style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">日记</span>
+                    <span class="layui-badge-rim"
+                          style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">绘画</span>
+                    <span class="layui-badge-rim"
+                          style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">诗经</span>
+                    <span class="layui-badge-rim"
+                          style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">诗词研究</span>
+                    <span class="layui-badge-rim"
+                          style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">历代书法</span>
+
+                </div>
+            </fieldset>
+        </div>
+    </div>
+    <!-- 主体显示部分 右面板 -->
+    <div class="content-body">
+        <!-- 爱好面板 -->
+        <div class="blog-item" style="text-align: left;">
+            <fieldset class="layui-elem-field layui-field-title" style="margin-top: 30px;margin: 50px 0px;">
+                <legend>书籍-读后感</legend>
+            </fieldset>
+            <div class="layui-collapse" lay-filter="test">
+                <div class="layui-colla-item">
+                    <h2 class="layui-colla-title">《围城》 — 钱钟书</h2>
+                    <div>
+                        <p style="text-indent: 20px;margin-top: 20px;">
+                            其实早早就听过了围城这本书，只是确实是前不久才捧着看完。近来因为一些事倒是情绪挺是低落，舍不得某些人毕业走吧，终日做事都不甚提得起精神来，唯有翻翻书籍倒还觉得日子算过得去，一直不明白围城是什么意思，直到读完倒是真觉得再没有围城二字更贴切概括全书了，看完倒是给自己一些启示，画地为牢即围城，世间本无烦恼，庸人自扰之而已。</p>
+                        <p style="text-indent: 20px; margin: 20px 0px">
+                            杨绛对于围城的评价中说到，唐小姐是方鸿渐的最爱，但却不忍将她写到和他在一起，因为对于方鸿渐来说那是他最美好的东西，如果结婚后那般争吵，那就毁坏了心中那段美好了。并且评说结婚如身陷围城，结婚真有那么可怕么。其实在我看来，虽说只是一个无经验人的无稽之谈，找到个与自己合适的人才是最重要的吧，毕竟这是一辈子的事，不可草率而行事，断不能像方鸿渐那般迷迷糊糊就陷入圈套以至于最后将自己陷入围城之中。宁缺毋滥最是能诠释这些道理的一句话吧，如果像他那般的婚姻，我宁愿自己一人画地为牢为围城，不让任何人进入而孤独终老。但是如果遇见合适的，更愿意为你画地为牢为围城，只为你一人一心一意。总之，断不能像方鸿渐那般将孙小姐这样完全与自己不和的人圈在一起，否则真的只是成牢了，囚禁自己一生永不会幸福。</p>
+                    </div>
+                </div>
+                <div class="layui-colla-item" style="margin-top: 20px;">
+                    <h2 class="layui-colla-title">《活着》 — 余华</h2>
+                    <div>
+                        <p style="text-indent: 20px;margin-top: 20px;">
+                            人生七十古来稀，十年孱弱，十年叛逆，十年迷惘，一去便是三十年间，人生还有几多春秋，这样仔细一想来确实是不太长。所以别吝啬你的温柔，也许有些人一转身就已经不在。其实谈到这个问题，不可忽略的实在要数余华的作品《活着》，这本书对于我的感触极深。</p>
+                        <p style="text-indent: 20px;margin: 20px 0px;">
+                            一辈子说到底也只是三个字的距离，若不牢牢抓住很容易就这样轻易在手中流逝。感触很深的几点大概就是，韶华易逝，珍惜身边走过的那一些人，也许只是一个微笑过后就再也不见。面对生活的不易，总可以坚持下去，余秋雨的《霜冷长河》中有一篇名为关于年龄说了许多也是关于生与死或者准确说是人生的问题。莫里·施瓦茨是一位社会学家，在去世前告诉自己的学生，如果早知道面对死亡可以这样平静，我们就能应付人生最困难的事情了。确实如此，如果连死亡都可以平淡对待，还有什么可以过不去的呢。</p>
+                        <p style="text-indent: 20px;margin: 20px 0px;">总之，好好活着，不只为自己，更为身边的人。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="my-line">
+</div>
+<script src="js/layui.js"></script>
+<!-- 引入jquery js -->
+<script src="js/jquery-3.2.1.min.js"></script>
+<!-- 自定义 js -->
+<script src="js/index.js"></script>
+<script>
+    $(function () {
+        //init
+        component.init();
+    });
+</script>
+</body>
+</html>
+
+
+

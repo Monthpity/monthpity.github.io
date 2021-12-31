@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	    <title>主页</title>
+	    <!-- 引入layui css文件 -->
+	    <link rel="stylesheet" href="css/layui.css">
+	    <!-- 自定义 css -->
+	    <link rel="stylesheet" href="css/index.css">
+	</head>
+	<body>
+	<!-- Header -->
+	<div class="header">
+        <!-- 个性化标题 -->
+        <div class="mytitle">
+            <label>坚持柯学发展</label>
+        </div>
+        <!-- 导航栏 -->
+        <div class="mymenu-content">
+            <ul class="mymenu">
+                <li><a href="index.html">文章</a></li>
+                <li><a href="photos.html">相册</a></li>
+                <li><a href="about.html">简介</a></li>
+                <li><a href="aihao.html">爱好</a></li>
+                <li><a href="movies.html">电影</a></li>
+                <li><a href="books.html">书籍</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 个性签名 -->
+    <div class="my-sign">
+        <!--  包含标志和签名 -->
+        <div class="my-signImg">
+            <img id="my-signImg" src="img/001.gif">
+            <div class="my-signWord">
+                <span class="my-signTitle" id="my-signTitle">匆匆时光</span>
+                <span class="my-signBody" id="my-signBody">I' am waiting for you here.</span>
+            </div>
+        </div>
+    </div>
+    <!-- Content -->
+    <div class="main-content">
+	    <!-- 个人以及所有文章、留言、照片汇总 包含大分类以及小标签 左面版 -->
+	    <div class="my-totalContent">
+	        <!-- 1.个人以及汇总部分 -->
+	        <div class="blog-inTotal">
+	            <!-- 头像 -->
+	            <img src="img/002.PNG">
+	            <!-- 说明 -->
+	            <span>——好好学习，天天向上吧</span>
+	            <!-- 各方面汇总(各项目以及数量) -->
+	            <fieldset class="layui-elem-field">
+	                <legend>文章标签</legend>
+	                <!-- 用于存放tags -->
+	                <div class="layui-field-box" id="tagContent">
+						<span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px;font-weight: 400;">论语</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">道德经</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">余华作品</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">沈从文</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">冰心选集</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">小说散文</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">随笔</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">外国文学</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">人生感悟</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">遇见你</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">日记</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">绘画</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">诗经</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">诗词研究</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">历代书法</span>
+		            
+	                </div>
+	            </fieldset>
+	        </div>
+	    </div>
+        <!-- 主体显示部分 右面板 -->
+        <div class="content-body">
+            <!-- 单个文章面板 -->
+            <div class="blog-item">
+                <!-- 标题 -->
+                <h2 class="blog-title">一个小和尚</h2>
+                <!-- 作者以及时间 -->
+                <p class="blog-author">—— 柯学  2021-11-30 20:51</p>
+                <style>
+                	.simple-blog{
+                		text-align: left;
+                		text-indent: 10px;
+                		margin: 10px 0px;
+                		line-height: 25px;
+                	}
+                </style>
+                <!-- 概要 -->
+                <p style="margin: 20px 0px;color: #861313;" class="simple-blog">题记：岁月荏苒，如梦似幻，人生只在呼吸之间而已。</p>
+                <!-- 正文 -->
+                <p class="simple-blog">  从记事时候起，他就只有师傅一个亲人，所以一切都很是听从师傅，唯命是从。他知道在山寺门前捡到他的那年代诸侯并起，群雄逐鹿，亲生父母不知何种缘由将他丢弃在山上这座孤零零的寺庙门前。还小就跟从师傅老和尚做了个小和尚，身处山寺从小便沾染一身佛气。在本该年轻气盛、血气方刚的年纪早已看透世上许多人一辈子都未曾看透的事，大彻大悟也就无欲无求。对于亲生父母丢弃自己也并无丝毫怨恨，反而心生感激，是他们将自己带到这世界，也许只是缘分尽了所以便走了，并因此才认识了师傅，就像佛说的得失随缘，心无增减以及缘起缘灭，一切皆是定数。</p>
+  				<p class="simple-blog">  山寺处于一座高山的半山腰，打开山门便可看见几百层的阶梯以及两旁摇曳的山竹，偶尔山风调皮地踩着竹叶溜过去惹得竹子使劲甩动叶子作响。再往下一些的石阶就看不见了，被淡淡的云雾遮挡在身下，望向远处便是一片云海翻腾，遮住了那些矮小的山头，时不时偷偷冒出一两个就像捉迷藏一样一下子又不知所踪了。回到山寺门口边只见两颗古树像是守卫着寺庙一般，威武雄壮屹立不倒。</p>
+  				<p class="simple-blog">  从很小时候起，小和尚就被安排每天需在早晨太阳升起时分去打扫山寺门口的落叶。一扫就是十七年，从一开始根本不理解到慢慢地将其当做一种修行，小和尚经历了许多的磨炼，甚至于自己也根本没有想到在十七年后自己眼中的山寺居然是那么美。记得刚开始的几天里，他一直抱怨大树根本不体谅自己的辛苦，每天的落叶就像是太阳的升起那般平常地落下。他也不喜欢山寺门口的几百阶石梯，因为每次需要下山化缘时候总会腿脚酸痛，就连早晨时分的清新空气在他心里也觉得微凉，并不适合做早课，而倒适合靠着山门前大树下好好补一觉。</p>
+				<p class="simple-blog">  人总会改变，小和尚也会成长，每天在佛前念经也不再只是敷衍师傅，所谓的“凡所有相，皆是虚妄；若见诸相非相，即见如来”根本不知所说为何。渐渐地开始了解到师傅所说的，万事万物皆为修行，其实自己一直扫的地也是修行的一部分。对于那个问题的答案也更加清晰了，那是他曾经做了一个梦，身处于迷雾中的他被询问人生到底多长？梦醒后，小和尚喃喃自语“到底多长呢？”，也就是几十年间吧。期间总会回想起这问题，慢慢地小和尚的回答开始改变——“饮食之间吧”。虽然觉得合理但是总觉得还是有些许不对，但总是说不上来在何处，直到那天晚上师傅与自己交谈许久后第二天圆寂在房间里，或许他才意识到——“其实人生只不过在呼吸之间。”</p>
+				<p class="simple-blog">  从此开始山寺中只剩了小和尚孤身一人，但不管何时他总觉得师傅还在身边。没有师傅在的日子依旧一日不改地扫着山寺门口的落叶，停下来认真看的时候发现山寺门口确实是应该是最美的所在，有时候闭上眼睛就像与自然融为一体，呼吸相通。于是手捧经书坐在山寺门口那石座上静心钻研，偶尔抬头望向远处的绿水青山时心里一阵满足，回头便端起桌上早已沏好并余香仍留的茶细细品尝。曾经在这里师傅教他茶道和佛学，现在，师傅的那杯茶仍在，就像师傅还在。</p>
+                <p class="simple-blog">  几十年后，小和尚变成了老和尚，圆寂在师傅当初的禅房里，山寺从此废弃，再无人烟。</p>
+                <p style="margin: 20px 0px;color: #861313;" class="blog-tags">标签: 日记 / 人生感悟</p>
+            </div>
+        </div>
+        <hr class="my-line">
+    </div>
+    <script src="js/layui.js"></script>
+    <!-- 引入jquery js -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- 自定义 js -->
+    <script src="js/index.js"></script>
+    <script>
+        $(function () {
+            //init
+            component.init();
+        });
+    </script>
+	</body>
+</html>

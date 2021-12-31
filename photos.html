@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	    <title>主页</title>
+	    <!-- 引入layui css文件 -->
+	    <link rel="stylesheet" href="css/layui.css">
+	    <!-- 自定义 css -->
+	    <link rel="stylesheet" href="css/index.css">
+	</head>
+	<body>
+	<!-- Header -->
+	<div class="header">
+        <!-- 个性化标题 -->
+        <div class="mytitle">
+            <label>坚持柯学发展</label>
+        </div>
+        <!-- 导航栏 -->
+        <div class="mymenu-content">
+            <ul class="mymenu">
+                <li><a href="index.html">文章</a></li>
+                <li><a href="">相册</a></li>
+                <li><a href="about.html">简介</a></li>
+                <li><a href="aihao.html">爱好</a></li>
+                <li><a href="movies.html">电影</a></li>
+                <li><a href="books.html">书籍</a></li>
+            </ul>
+        </div>
+
+    </div>
+    <!-- 个性签名 -->
+    <div class="my-sign">
+        <!--  包含标志和签名 -->
+        <div class="my-signImg">
+            <img id="my-signImg" src="img/001.gif">
+            <div class="my-signWord">
+                <span class="my-signTitle" id="my-signTitle">匆匆时光</span>
+                <span class="my-signBody" id="my-signBody">I' am waiting for you here.</span>
+            </div>
+        </div>
+    </div>
+    <!-- Content -->
+    <div class="main-content" style="text-align: center;background-color: #FFFFFF;width: 85%;margin: auto;padding-top: 20px;">
+    	<!-- 相册面板 -->
+            <div class="blog-item">
+				<fieldset class="layui-elem-field" style="text-align: left;">
+				  <legend>相册墙</legend>
+				  <div class="layui-field-box" style="padding: 20px 100px;">
+			    	<style>
+			    		.photos{
+			    			    border: none;
+							    width: 500px;
+							    margin: 20px 20px;
+			    		}
+			    	</style>
+			    	<!-- 照片墙 -->
+					<div>
+						<img class="photos" src="img/12.jpg"/>
+			    		<img class="photos" src="img/2.png"/>
+					</div>
+			    	<img class="photos" src="img/3.jpg" />
+			    	<img class="photos" src="img/4.jpg" />
+			    	<img class="photos" src="img/7.jpg" />
+			    	<img class="photos" src="img/8.jpg" />
+				  </div>
+				</fieldset>
+    
+    </div>
+    <script src="js/layui.js"></script>
+    <!-- 引入jquery js -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- 自定义 js -->
+    <script src="js/index.js"></script>
+    <script>
+        $(function () {
+            //init
+            component.init();
+        });
+    </script>
+	</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	    <title>主页</title>
+	    <!-- 引入layui css文件 -->
+	    <link rel="stylesheet" href="css/layui.css">
+	    <!-- 自定义 css -->
+	    <link rel="stylesheet" href="css/index.css">
+	</head>
+	<body>
+	<!-- Header -->
+	<div class="header">
+        <!-- 个性化标题 -->
+        <div class="mytitle">
+            <label>坚持柯学发展</label>
+        </div>
+        <!-- 导航栏 -->
+        <div class="mymenu-content">
+            <ul class="mymenu">
+                <li><a href="index.html">文章</a></li>
+                <li><a href="photos.html">相册</a></li>
+                <li><a href="about.html">简介</a></li>
+                <li><a href="aihao.html">爱好</a></li>
+                <li><a href="movies.html">电影</a></li>
+                <li><a href="books.html">书籍</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 个性签名 -->
+    <div class="my-sign">
+        <!--  包含标志和签名 -->
+        <div class="my-signImg">
+            <img id="my-signImg" src="img/001.gif">
+            <div class="my-signWord">
+                <span class="my-signTitle" id="my-signTitle">匆匆时光</span>
+                <span class="my-signBody" id="my-signBody">I' am waiting for you here.</span>
+            </div>
+        </div>
+    </div>
+    <!-- Content -->
+    <div class="main-content">
+	    <!-- 个人以及所有文章、留言、照片汇总 包含大分类以及小标签 左面版 -->
+	    <div class="my-totalContent">
+	        <!-- 1.个人以及汇总部分 -->
+	        <div class="blog-inTotal">
+	            <!-- 头像 -->
+	            <img src="img/002.PNG">
+	            <!-- 说明 -->
+	            <span>——好好学习，天天向上吧</span>
+	            <!-- 各方面汇总(各项目以及数量) -->
+	            <fieldset class="layui-elem-field">
+	                <legend>文章标签</legend>
+	                <!-- 用于存放tags -->
+	                <div class="layui-field-box" id="tagContent">
+						<span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px;font-weight: 400;">论语</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">道德经</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">余华作品</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">沈从文</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">冰心选集</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">小说散文</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">随笔</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">外国文学</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">人生感悟</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">遇见你</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">日记</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">绘画</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">诗经</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">诗词研究</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">历代书法</span>
+		            
+	                </div>
+	            </fieldset>
+	        </div>
+	    </div>
+        <!-- 主体显示部分 右面板 -->
+        <div class="content-body">
+            <!-- 单个文章面板 -->
+            <div class="blog-item">
+                <!-- 标题 -->
+                <h2 class="blog-title">桃之夭夭，灼灼其华</h2>
+                <!-- 作者以及时间 -->
+                <p class="blog-author">—— 柯学  2021-11-30 21:11</p>
+                <style>
+                	.simple-blog{
+                		text-align: left;
+                		text-indent: 10px;
+                		margin: 10px 0px;
+                		line-height: 25px;
+                	}
+                </style>
+                <!-- 概要 -->
+                <p style="margin: 20px 0px;color: #861313;" class="simple-blog">题记：你犹如一支山寺桃花般惊艳的你就这样在我世界里静静地除绽着。</p>
+                <!-- 正文 -->
+                <p class="simple-blog">  人间四月芳菲尽，山寺桃花始盛开。那是因为高度导致了温度变化影响了花期的原因，而我心里的桃花绽开却只因为遇见你。寒冬腊月的家乡却总是有那么一段的温暖阳光，暖流直上流入心中，以至于桃花花期总是在那段时间定格，经常在品一杯茗后悠然走在乡间小路上。抬头便是触手可及的一瓣瓣桃花，温柔轻手触碰就像是轻捏着你的脸那般。</p>
+                <p class="simple-blog">  许是气候的不太寻常，今年的桃花开得异常鲜艳是否是因为将要出现的你所带来的预感，激动地拿相机拍下许多它们最美的瞬间，后面翻看起来时竟也是手舞足蹈，并且心中一直充斥着一种预感，也坚信着必定会遇见一个像桃花般的女子。</p>
+                <p class="simple-blog">  桃花一直以来都是自己最喜欢的花，却没有之一。所以当桃之夭夭并且灼灼其华的女子出现在我的世界中时，就像是一朵朵桃花初绽过程般美好。每个人都有一双独特的眼睛，在那里面整个世界都会变成另一个样，所以每个人的眼中所见都是有所不一样的。就像你，在我眼中就像是一枝山寺桃花，拥有一股淡淡香气使人心静，轻嗅一息就像整个世界都已在萦绕在周围，已经无欲无求，只剩下那闲庭静看花开花落的情调。</p>
+                <p class="simple-blog">  自诩为桃花仙人的唐寅吟得一手鲜艳极至的桃花，酒醒只在花前坐，酒醉还来花下眠，桃花树下落英缤纷必定也看呆了我们这位风流才子，否则断不可一生为其伴还谈笑于天地之间。如果桃花是你，我也愿意就这样简单望着你闲坐一生，陶公笔下桃花源惹得众人追求一生而不得，但对于我却只要有你在身旁，何处都是桃花源。</p>
+                <p class="simple-blog">  一颦一笑似那桃花始盛开，朵朵印在心中。如果可以，就这样岁月静好，阳光灿然，就让我牵着你的手踏遍青山绿水，看遍潮落潮涨，花开花落。</p>
+                <p class="simple-blog">  曾经他说过，我想因为这个世界有了我而变得有点不一样，后面那句却一直深埋心底不曾说出，而我的世界只是你。他的世界是她，我的桃花源却是你。或许我比众人多了一份幸运，许多人穷其一生却不曾找到桃源入口，但我却真实遇见了你。</p>
+                <p class="simple-blog">  许诺你，愿为你一生努力前行，丹青妙笔只为你生花，笔落诗成只为你写下一句相思。</p>
+                <p style="margin: 20px 0px;color: #861313;" class="blog-tags">标签: 日记 / 遇见你</p>
+            </div>
+        </div>
+        <hr class="my-line">
+    </div>
+    <script src="js/layui.js"></script>
+    <!-- 引入jquery js -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- 自定义 js -->
+    <script src="js/index.js"></script>
+    <script>
+        $(function () {
+            //init
+            component.init();
+        });
+    </script>
+	</body>
+</html>
