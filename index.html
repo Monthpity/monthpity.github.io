@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	    <title>主页</title>
+	    <!-- 引入layui css文件 -->
+	    <link rel="stylesheet" href="css/layui.css">
+	    <!-- 自定义 css -->
+	    <link rel="stylesheet" href="css/index.css">
+	</head>
+	<body>
+	<!-- Header -->
+	<div class="header">
+        <!-- 个性化标题 -->
+        <div class="mytitle">
+            <label>坚持柯学发展</label>
+        </div>
+        <!-- 导航栏 -->
+        <div class="mymenu-content">
+            <ul class="mymenu">
+                <li><a href="index.html">文章</a></li>
+                <li><a href="photos.html">相册</a></li>
+                <li><a href="about.html">简介</a></li>
+                <li><a href="aihao.html">爱好</a></li>
+                <li><a href="movies.html">电影</a></li>
+                <li><a href="books.html">书籍</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 个性签名 -->
+    <div class="my-sign">
+        <!--  包含标志和签名 -->
+        <div class="my-signImg">
+            <img id="my-signImg" src="img/001.gif">
+            <div class="my-signWord">
+                <span class="my-signTitle" id="my-signTitle">匆匆时光</span>
+                <span class="my-signBody" id="my-signBody">I' am waiting for you here.</span>
+            </div>
+        </div>
+    </div>
+    <!-- Content -->
+    <div class="main-content">
+	    <!-- 个人以及所有文章、留言、照片汇总 包含大分类以及小标签 左面版 -->
+	    <div class="my-totalContent">
+	        <!-- 1.个人以及汇总部分 -->
+	        <div class="blog-inTotal">
+	            <!-- 头像 -->
+	            <img src="img/002.PNG">
+	            <!-- 说明 -->
+	            <span>——好好学习，天天向上吧</span>
+	            <!-- 各方面汇总(各项目以及数量) -->
+	            <fieldset class="layui-elem-field">
+	                <legend>文章标签</legend>
+	                <!-- 用于存放tags -->
+	                <div class="layui-field-box" id="tagContent">
+						<span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px;font-weight: 400;">论语</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">道德经</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">余华作品</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">沈从文</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">冰心选集</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">小说散文</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">随笔</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">外国文学</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">人生感悟</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">遇见你</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">日记</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">绘画</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">诗经</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">诗词研究</span>
+		                <span class="layui-badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px">历代书法</span>
+		            
+	                </div>
+	            </fieldset>
+	        </div>
+	    </div>
+        <!-- 主体显示部分 右面板 -->
+        <div class="content-body">
+            <!-- 单个文章面板 -->
+            <div class="blog-item">
+                <!-- 标题 -->
+                <p class="blog-title"><a href="simpleBlog.html"><strong>一个小和尚</strong></a></p>
+                <!-- 作者以及时间 -->
+                <p class="blog-author">—— 柯学  2021-11-30 19:41</p>
+                <img class="blog-img" src="img/6.jpg"/>
+                <!-- 概要 -->
+                <p class="blog-des">岁月荏苒，如梦似幻，人生只在呼吸之间而已。</p>
+                <p class="blog-tags">标签: 日记 / 人生感悟</p>
+            </div>
+            <!-- 单个文章面板 -->
+            <div class="blog-item">
+                <!-- 标题 -->
+                <p class="blog-title"><a href="simpleBlog1.html"><strong>桃之夭夭，灼灼其华</strong></a></p>
+                <!-- 作者以及时间 -->
+                <p class="blog-author">—— 《诗经·周南·桃夭》 2021-11-30 19:41</p>
+                <img class="blog-img" src="img/5.png"/>
+                <!-- 概要 -->
+                <p class="blog-des">犹如一支山寺桃花般惊艳的你就这样在我世界里静静地除绽着。</p>
+                <p class="blog-tags">标签: 日记 </p>
+            </div>
+        </div>
+        <hr class="my-line">
+    </div>
+    <script src="js/layui.js"></script>
+    <!-- 引入jquery js -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- 自定义 js -->
+    <script src="js/index.js"></script>
+        $(function () {
+            //init
+            component.init();
+        });
+    </script>
+	</body>
+</html>
