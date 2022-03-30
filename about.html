@@ -18,7 +18,8 @@
     <!-- 导航栏 -->
     <div class="mymenu-content">
         <ul class="mymenu">
-            <li><a href="index.html">文章</a></li>
+            <li><a href="zhuye.html">文章</a></li>
+            <li><a href="message.html">留言</a></li>
             <li><a href="photos.html">相册</a></li>
             <li><a href="">简介</a></li>
             <li><a href="aihao.html">爱好</a></li>
@@ -44,15 +45,17 @@
     <!-- 相册面板 -->
     <div class="blog-item" style="font-weight: 300;">
         <fieldset class="layui-elem-field" style="text-align: left;">
-            <legend>关于我</legend>
+            <legend>关于我们</legend>
             <div class="layui-field-box" style="padding: 20px 100px;">
                 <div style="border: 1px solid #ede9e9;padding: 30px 30px;text-align: center;">
                     <img style="width: 92%;" src="img/11.jpg"/>
                 </div>
                 <div class="about-myself">
-                    <h2 style="font-weight: 300;margin: 20px 0px;">介绍</h2>
+                    <h2 style="font-weight: 300;margin: 20px 0px;">团队介绍</h2>
                     <p style="margin: 20px;line-height: 30px;">
-                       我只是一个普通人
+                        潘瑞柯！学号：2018031117 制作了登录、注册、文章（包含两篇文章）、留言、爱好界面<br/>
+                        李彦锟！学号：2018031144 制作了相册、简介界面<br/>
+                        朱红通！学号：2018031131 制作了电影、书籍界面</p>
                     <p style="margin: 20px;line-height: 30px;">—Where is haha point?</p>
                 </div>
                 <div style="border: 1px solid #ede9e9;padding: 30px 30px;text-align: center;">
@@ -78,8 +81,14 @@
 <script src="js/jquery-3.2.1.min.js"></script>
 <!-- 自定义 js -->
 <script src="js/index.js"></script>
-<script>
-
+ <script>
+        $(function () {
+            //init
+            component.init();
+        });
+    </script>
+<div id="jsi-flying-fish-container"></div>
+            <script src="https://cdn.nesxc.com/js/fish.js"></script>
 </script>
 </body>
 </html>

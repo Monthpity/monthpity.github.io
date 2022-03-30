@@ -18,11 +18,11 @@
         <!-- 导航栏 -->
         <div class="mymenu-content">
             <ul class="mymenu">
-                <li><a href="zhuye.html">文章</a></li>
+                <li><a href="">文章</a></li>
                 <li><a href="message.html">留言</a></li>
                 <li><a href="photos.html">相册</a></li>
                 <li><a href="about.html">简介</a></li>
-                <li><a href="">爱好</a></li>
+                <li><a href="aihao.html">爱好</a></li>
                 <li><a href="movies.html">电影</a></li>
                 <li><a href="books.html">书籍</a></li>
             </ul>
@@ -76,61 +76,27 @@
 	    </div>
         <!-- 主体显示部分 右面板 -->
         <div class="content-body">
-            <!-- 爱好面板 -->
-            <div class="blog-item" style="text-align: left;">
-	            <fieldset class="layui-elem-field layui-field-title" style="margin-top: 30px;margin: 50px 0px;">
-					  <legend>人生爱好变更线</legend>
-				</fieldset> 
-					<ul class="layui-timeline">
-					  <li class="layui-timeline-item">
-					    <i class="layui-icon layui-timeline-axis"></i>
-					    <div class="layui-timeline-content layui-text">
-					      <div class="layui-timeline-title">怀揣着希望，向着不知何方的未来仍毫无畏惧。</div>
-					    </div>
-					  </li>
-					  <li class="layui-timeline-item">
-					    <i class="layui-icon layui-timeline-axis"></i>
-					    <div class="layui-timeline-content layui-text">
-					      <div class="layui-timeline-title">淡淡的歌曲萦绕身边，就算是一个人也并不觉孤单。</div>
-					    </div>
-					  </li>
-					  <li class="layui-timeline-item">
-					    <i class="layui-icon layui-timeline-axis"></i>
-					    <div class="layui-timeline-content layui-text">
-					      <div class="layui-timeline-title">原来运动流汗也是一件很舒服的事。</div>
-					    </div>
-					  </li>
-					  <li class="layui-timeline-item">
-					    <i class="layui-icon layui-timeline-axis"></i>
-					    <div class="layui-timeline-content layui-text">
-					      <div class="layui-timeline-title">听说，不看书的人生只是过了一个人生，而多阅读的人生却是经历了几遍轮回。</div>
-					    </div>
-					  </li>
-					  <li class="layui-timeline-item">
-					    <i class="layui-icon layui-timeline-axis"></i>
-					    <div class="layui-timeline-content layui-text">
-					      <div class="layui-timeline-title">有时候很喜欢写作时安安静静思考的自己，即使是车水马龙，也能诗词歌赋。</div>
-					    </div>
-					  </li>
-					  <li class="layui-timeline-item">
-					    <i class="layui-icon layui-timeline-axis"></i>
-					    <div class="layui-timeline-content layui-text">
-					      <div class="layui-timeline-title">随着阅读量的增加，黑暗色渐渐地褪去，剩下的依旧很光亮，只是看得更加遥远了。</div>
-					    </div>
-					  </li>
-					  <li class="layui-timeline-item">
-					    <i class="layui-icon layui-timeline-axis"></i>
-					    <div class="layui-timeline-content layui-text">
-					      <div class="layui-timeline-title">偶然喜欢上阅读，发现世界并不是全都是童话世界，也有黑暗色</div>
-					    </div>
-					  </li>
-					  <li class="layui-timeline-item">
-					    <i class="layui-icon layui-anim layui-anim-rotate layui-anim-loop layui-timeline-axis"></i>
-					    <div class="layui-timeline-content layui-text">
-					      <div class="layui-timeline-title">很久很久以前，我只是个单纯喜欢做梦的孩子而已。</div>
-					    </div>
-					  </li>
-					</ul>
+            <!-- 单个文章面板 -->
+            <div class="blog-item">
+                <!-- 标题 -->
+                <p class="blog-title"><a href="simpleBlog.html"><strong>一个小和尚</strong></a></p>
+                <!-- 作者以及时间 -->
+                <p class="blog-author">—— 柯学  2021-11-30 19:41</p>
+                <img class="blog-img" src="img/6.jpg"/>
+                <!-- 概要 -->
+                <p class="blog-des">岁月荏苒，如梦似幻，人生只在呼吸之间而已。</p>
+                <p class="blog-tags">标签: 日记 / 人生感悟</p>
+            </div>
+            <!-- 单个文章面板 -->
+            <div class="blog-item">
+                <!-- 标题 -->
+                <p class="blog-title"><a href="simpleBlog1.html"><strong>桃之夭夭，灼灼其华</strong></a></p>
+                <!-- 作者以及时间 -->
+                <p class="blog-author">—— 《诗经·周南·桃夭》 2021-11-30 19:41</p>
+                <img class="blog-img" src="img/5.png"/>
+                <!-- 概要 -->
+                <p class="blog-des">犹如一支山寺桃花般惊艳的你就这样在我世界里静静地除绽着。</p>
+                <p class="blog-tags">标签: 日记 </p>
             </div>
         </div>
         <hr class="my-line">
@@ -138,10 +104,7 @@
     <script src="js/layui.js"></script>
     <!-- 引入jquery js -->
     <script src="js/jquery-3.2.1.min.js"></script>
-    <!-- 自定义 js -->
-    <script src="js/index.js"></script>
-    
-<div id="jsi-flying-fish-container"></div>
-            <script src="https://cdn.nesxc.com/js/fish.js"></script>
+ <div id="jsi-flying-fish-container"></div>
+            <script src="js/fish.js"></script>
 	</body>
 </html>
